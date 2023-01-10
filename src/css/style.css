@@ -1,0 +1,370 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  background-color: var(--background-testimonials);
+  color: var(--light);
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+  padding: 2rem;
+}
+
+.header .container .navegation ul {
+  display: flex;
+  gap: 50px;
+}
+
+.header .container .navegation ul a:hover {
+  text-decoration: underline;
+  transition: 0.3s ease-in-out;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--background-main);
+}
+
+.main .intro{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: url(/src/images/bg-curvy-desktop.svg) bottom no-repeat;
+  background-size: contain;
+  background-color: var(--background-testimonials);
+}
+
+.main .intro .container img {
+  width: 45%;
+  padding-bottom: 2rem;
+}
+
+.main .intro .container .info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 10rem;
+}
+
+.main .intro .container .info h2 {
+
+  font-family: "Raleway", sans-serif;
+  font-size: 1.9rem;
+  padding-bottom: 4rem;
+  max-width: 35rem;
+}
+
+.main .intro .container .info p {
+  max-width: 34rem;
+  font-size: 1.1rem;
+  padding-bottom: 4rem;
+}
+
+.main .intro .container .info .btn {
+  background-image: linear-gradient(
+    to right,
+    var(--light-inside-gradient) 20%,
+    var(--medium-inside-gradient) 100%
+  );
+  font-size: 0.9rem;
+  border-radius: 3rem;
+  width: 12rem;
+  height: 3rem;
+}
+
+.main .intro .container .info .btn a:hover {
+  text-decoration: underline;
+  transition: 0.3s ease-in-out;
+}
+
+.main .services .container {
+  display: flex;
+  text-align: center;
+  gap: 16rem;
+}
+
+.main .services .container .service {
+  max-width: 19rem;
+  font-size: 0.7rem;
+  margin-bottom: 5rem;
+}
+.main .services .container .service .access {
+  max-width: 17rem;
+}
+
+.main .services .container .service h3 {
+  font-size: 1.2rem;
+  padding-bottom: 0.5rem;
+}
+
+.main .commercial .container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 10rem;
+}
+
+.main .commercial .container .commercial-1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main .commercial .container img{
+  max-width: 80%;
+}
+
+.main .commercial .container .commercial-1 h2 {
+  max-width: 20rem;
+  padding-bottom: 1.5rem;
+  font-size: 2.2rem;
+}
+
+.main .commercial .container .commercial-1 p {
+  max-width: 28rem;
+  padding-bottom: 1rem;
+  font-size: 0.8rem;
+}
+
+.main .commercial .container .commercial-1 a {
+  display: flex;
+  align-items: center;
+  align-self: flex-start;
+  gap: 0.2rem;
+  color: var(--light-inside-gradient);
+  border-bottom: 1px solid var(--light-inside-gradient);
+}
+
+.main .commercial .container .commercial-1 a:hover {
+  color: var(--light);
+  border-bottom: 0.1rem solid var(--light);
+  transition: 0.3s ease-in-out;
+}
+
+.main .comments .container {
+  background: url(../images/bg-quotes.png) ;
+  background-repeat: no-repeat;
+  display: flex;
+  gap: 2rem;
+  max-width: 100%;
+  margin-bottom: 10rem;
+}
+
+
+.main .comments .container .card-comments {
+  background-color: var(--background-testimonials);
+  border-radius: 0.6rem;
+  margin: 2.1rem 0 0 0.5rem;
+  padding: 2.1rem 1.7rem 1.7rem 1.7rem;
+  box-shadow: 1px 1px 20px rgba(26, 25, 25, 0.856);
+  max-width: 22rem;
+}
+
+.main .comments .container .card-comments p {
+  font-size: 0.9rem;
+  padding-bottom: 1rem;
+}
+
+.main .comments .container .card-comments .info-profile {
+  display: flex;
+}
+
+.main .comments .container .card-comments .info-profile img {
+  border-radius: 50%;
+  width: 15%;
+  height: 15%;
+}
+
+.main .comments .container .card-comments .info-profile ul {
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-left: 1rem;
+}
+
+.main .comments .container .card-comments .info-profile ul .name {
+  font-weight: 700;
+  font-size: 0.7rem;
+}
+
+.main .comments .container .card-comments .info-profile ul .company {
+  font-size: 0.6rem;
+}
+
+.main .register {
+  background: linear-gradient(
+    var(--background-main) 60%,
+    var(--background-footer) 40%
+  );
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main .register .container {
+  background-color: var(--background-main);
+  max-width: 60%;
+  height: auto;
+  border-radius: 0.5rem;
+  box-shadow: 1px 1px 20px #000000;
+}
+
+.main .register .container .card-register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  padding-top: 1.5rem;
+  font-size: 0.8rem;
+}
+
+.main .register .container .card-register h2 {
+  font-size: 1.8rem;
+}
+.main .register .container .card-register p {
+  max-width: 36rem;
+  padding-top: 1rem;
+}
+
+.main .register .container .form {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.main .register .container .form input {
+  border-radius: 2rem;
+  height: 2.5rem;
+  width: 80%;
+  border: none;
+}
+
+.main .register .container .form input::placeholder {
+  padding-left: 1rem;
+  font-size: 0.7rem;
+}
+
+.main .register .container .form button {
+  width: 30%;
+  height: 2.5rem;
+  border-radius: 2rem;
+  margin-left: 1rem;
+  font-size: 0.8rem;
+  color: var(--light);
+
+  background-image: linear-gradient(
+    to right,
+    var(--light-inside-gradient) 20%,
+    var(--medium-inside-gradient) 100%
+  );
+}
+
+.main .register .container .form button:hover {
+  cursor: pointer;
+  background: var(--light-inside-gradient);
+  transition: 0.3s ease-in-out;
+}
+
+footer{
+  width: 100%;
+  background-color: var(--background-footer);
+}
+
+footer .container .logo img {
+  margin: 5rem 0 1rem 7rem;
+  width: 11rem;
+}
+
+footer .container .loc {
+  display: flex;
+  justify-content: space-around;
+  font-size: 0.9rem;
+  padding-bottom: 2rem;
+}
+
+footer .container .loc .address {
+  display: flex;
+  gap: 2rem;
+}
+
+footer .container .loc .address p {
+  display: flex;
+  max-width: 20rem;
+}
+
+footer .container .loc .address p::before {
+  content: url(../images/icon-location.svg);
+  padding-right: 1rem;
+}
+
+footer .container .loc .address ul {
+  line-height: 2rem;
+}
+
+footer .container .loc .address ul .phone::before {
+  content: url(../images/icon-phone.svg);
+  padding-right: 1rem;
+}
+
+footer .container .loc .address ul .email::before {
+  content: url(../images/icon-email.svg);
+  padding-right: 1rem;
+}
+
+footer .container .loc .nav-footer {
+  display: flex;
+  gap: 5rem;
+  line-height: 2rem;
+}
+
+footer .container .loc .nav-footer ul a:hover {
+  font-weight: 700;
+  transition: 0.3s ease-in-out;
+}
+
+footer .container .loc .midia {
+  display: flex;
+  gap: 1rem;
+}
+
+footer .container .loc .midia i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--light);
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+}
+
+footer .container .loc .midia i:hover {
+  color: var(--light-inside-gradient);
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  border: 1px solid var(--light-inside-gradient);
+}
