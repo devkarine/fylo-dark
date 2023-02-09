@@ -20,7 +20,7 @@ visando reproduzir uma landig page o mais fiel possível ao proposto,
 <img src="src/images/fylo-dark-desktop-responsivo.gif" alt="imagem do desktop e responsivo">
 
 ## Page
-> Acesse on-li: https://fylo-dark-mm4uawfoi-devkarine.vercel.app/
+> Acesse on-line: https://fylo-dark-mm4uawfoi-devkarine.vercel.app/
 
 ## Autor
 
