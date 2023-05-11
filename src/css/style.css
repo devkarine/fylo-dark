@@ -14,33 +14,16 @@ body {
   width: 100%;
 }
 
-.header .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-family: "Raleway", sans-serif;
-  padding: 2rem;
-}
-
-.header .container .navegation ul {
-  display: flex;
-  gap: 50px;
-}
-
-.header .container .navegation ul a:hover {
-  text-decoration: underline;
-  transition: 0.3s ease-in-out;
-}
-
 .main {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   background-color: var(--background-main);
+  margin-top: 10rem;
 }
 
-.main .intro{
+.main .intro {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -67,7 +50,6 @@ body {
 }
 
 .main .intro .container .info h2 {
-
   font-family: "Raleway", sans-serif;
   font-size: 1.9rem;
   padding-bottom: 4rem;
@@ -117,7 +99,7 @@ body {
   padding-bottom: 0.5rem;
 }
 
-.main .commercial .container{
+.main .commercial .container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -131,7 +113,7 @@ body {
   flex-direction: column;
 }
 
-.main .commercial .container img{
+.main .commercial .container img {
   max-width: 80%;
 }
 
@@ -163,14 +145,13 @@ body {
 }
 
 .main .comments .container {
-  background: url(../images/bg-quotes.png) ;
+  background: url(../images/bg-quotes.png);
   background-repeat: no-repeat;
   display: flex;
   gap: 2rem;
   max-width: 100%;
   margin-bottom: 10rem;
 }
-
 
 .main .comments .container .card-comments {
   background-color: var(--background-testimonials);
@@ -290,7 +271,7 @@ body {
   transition: 0.3s ease-in-out;
 }
 
-footer{
+footer {
   width: 100%;
   background-color: var(--background-footer);
 }

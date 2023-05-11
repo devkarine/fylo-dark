@@ -2,7 +2,6 @@
   body {
     display: flex;
     flex-direction: column;
-    
   }
 
   .container {
@@ -10,22 +9,6 @@
     flex-direction: column;
     padding: 1rem;
   }
-
-  .header .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-  }
-
-  .header .container img {
-    width: 20%;
-  }
-
-  .header .container .navegation ul {
-    font-size: 0.6rem;
-  }
-
 
   .main .intro {
     background: url(../images/bg-curvy-mobile.svg) no-repeat center,
@@ -91,7 +74,8 @@
   }
 
   .main .comments .container .card-comments {
-    margin: 0.8rem 0 0 -0.8rem;}
+    margin: 0.8rem 0 0 -0.8rem;
+  }
 
   .main .comments .container .card-comments p {
     font-size: 0.7rem;
@@ -129,55 +113,42 @@
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    margin-left: 0.5rem; 
+    margin-left: 0.5rem;
     gap: 1rem;
+  }
 
-    }
-
-    footer .container .loc .midia{
-        display: flex;
+  footer .container .loc .midia {
+    display: flex;
     justify-content: center;
-    }
+  }
 }
 
-@media(max-width: 730px){
-    .main .intro {
-        background: url(../images/bg-curvy-mobile.svg) no-repeat center,
-          linear-gradient(
-            to top,
-            var(--background-main) 0%,
-            var(--background-main) 40%,
-            var(--background-testimonials) 35%,
-            var(--background-testimonials) 100%
-          );
-        background-size: contain;
-        width: 100%;
-      }
+@media (max-width: 730px) {
+  .main .intro {
+    background: url(../images/bg-curvy-mobile.svg) no-repeat center,
+      linear-gradient(
+        to top,
+        var(--background-main) 0%,
+        var(--background-main) 40%,
+        var(--background-testimonials) 35%,
+        var(--background-testimonials) 100%
+      );
+    background-size: contain;
+    width: 100%;
+  }
 }
 
-@media(max-width: 430px){
-    .main .intro {
-        background: url(../images/bg-curvy-mobile.svg) no-repeat center,
-          linear-gradient(
-            to top,
-            var(--background-main) 0%,
-            var(--background-main) 42%,
-            var(--background-testimonials) 35%,
-            var(--background-testimonials) 100%
-          );
-        background-size: contain;
-        width: 100%;
-      }
+@media (max-width: 430px) {
+  .main .intro {
+    background: url(../images/bg-curvy-mobile.svg) no-repeat center,
+      linear-gradient(
+        to top,
+        var(--background-main) 0%,
+        var(--background-main) 42%,
+        var(--background-testimonials) 35%,
+        var(--background-testimonials) 100%
+      );
+    background-size: contain;
+    width: 100%;
+  }
 }
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
